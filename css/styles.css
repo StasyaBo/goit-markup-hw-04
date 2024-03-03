@@ -332,8 +332,17 @@ background-color: #404BBF;
     line-height: 1.5;
     letter-spacing: 0.02em;
     }
-   
+   .team-soc.list {
+    display: block;
 
+   }
+
+   .team-soc.item {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+   }
 
 /*----portfolio----*/
 .portfolio{
@@ -398,6 +407,7 @@ background-color: #404BBF;
     background-color:  #2E2F42;
 }
 
+
 .footer-logo {
     display: inline-block; 
     margin-bottom: 16px; 
@@ -421,4 +431,40 @@ background-color: #404BBF;
     line-height: 1.5;
     letter-spacing: 0.02em;
     border-left: 156px;
+}
+
+.footer-soc-conteiner {
+padding: 100px;
+}
+
+.footer-soc {
+    font-family: "Body Medium", serif;
+width: 96px;
+height: 24px;
+left: 540px;
+color: rgba(255, 255, 255, 1);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+margin-bottom: 16px;
+
+
+}
+.footer-soc-list {
+    display: flex;
+}
+
+.footer-soc-item {
+    height: 40px;
+    width: 40px;
+    background-color: rgba(77, 90, 229, 1);
+    border-radius: 50%
+    ;
+}
+
+.footer-soc-list{
+
 }
