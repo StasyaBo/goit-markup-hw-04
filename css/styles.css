@@ -84,7 +84,8 @@ address {
     display: flex;
     margin-right: 76px;
     width: 44px;
-    color: #4D5AE5;
+    color: rgba(64, 75, 191, 1);
+    ;
     font-family:"Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -98,8 +99,6 @@ address {
     gap: 40px;
     margin-left: 76px;
     height: 72px;
-
-    
 }
 
 .logo-header-color {
@@ -302,8 +301,7 @@ background-color: #404BBF;
     display: flex;
     gap: 24px;
     background-color: #F4F4FD;  
-    
-}
+    }
 
 .team-card {
     width: calc((100% - 72px) / 4);
@@ -315,6 +313,7 @@ background-color: #404BBF;
 .team-card-s {
     padding: 32px 0;
 }
+
 
 .team-subtitle {
     color:#2E2F42;
@@ -331,17 +330,32 @@ background-color: #404BBF;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    }
-   .team-soc.list {
-    display: block;
-
-   }
+    } 
+.team-soc-list{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8px;
+    
+}
 
    .team-soc.item {
     display: flex;
     height: 40px;
     width: 40px;
-    background-color: #fff;
+    background-color:#fff;
+   }
+   
+   .team-soc-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    color:rgba(255, 255, 255, 1);
+    background-color: rgba(77, 90, 229, 1);
+    border-radius: 50%;
    }
 
 /*----portfolio----*/
