@@ -402,6 +402,10 @@ background-color: #404BBF;
      letter-spacing: 0.02em;
  }
 /*----footer----*/
+.footer-container {
+    display: flex;
+
+}
 .footer { 
     padding: 100px 0;
     background-color:  #2E2F42;
@@ -433,28 +437,32 @@ background-color: #404BBF;
     border-left: 156px;
 }
 
+.footer-right{
+    margin-right: 120px;
+}
+
 .footer-soc-conteiner {
 padding: 100px;
 }
 
 .footer-soc {
-    font-family: "Body Medium", serif;
-width: 96px;
-height: 24px;
-left: 540px;
-color: rgba(255, 255, 255, 1);
+    color: rgba(244, 244, 253, 1);;
 font-family: Roboto;
 font-size: 16px;
 font-weight: 500;
-line-height: 24px;
 letter-spacing: 0.02em;
 text-align: left;
 margin-bottom: 16px;
 
+.icon {
+    fill: rgba(244, 244, 253, 1);
+
+}
 
 }
 .footer-soc-list {
     display: flex;
+    gap: 16px;
 }
 
 .footer-soc-item {
@@ -465,6 +473,7 @@ margin-bottom: 16px;
     ;
 }
 
-.footer-soc-list{
+.footer-soc-link{
 
+;
 }
