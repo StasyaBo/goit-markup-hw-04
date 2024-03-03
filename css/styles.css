@@ -447,12 +447,12 @@ padding: 100px;
 
 .footer-soc {
     color: rgba(244, 244, 253, 1);;
-font-family: Roboto;
-font-size: 16px;
-font-weight: 500;
-letter-spacing: 0.02em;
-text-align: left;
-margin-bottom: 16px;}
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-bottom: 16px;}
 
 .icon {
     fill: rgba(244, 244, 253, 1);
@@ -460,24 +460,19 @@ margin-bottom: 16px;}
 
 .footer-soc-link {
     display: flex;
-    justify-content: center;
     align-items: center;
-    
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(77, 90, 229, 1);
+    border-radius: 50%;
+   }
+
+.footer-soc-link:hover {
+    background-color: rgba(49, 208, 170, 1);
 }
 
 .footer-soc-list {
     display: flex;
     gap: 16px;
 }
-
-.footer-soc-item {
-    height: 40px;
-    width: 40px;
-    background-color: rgba(77, 90, 229, 1);
-    border-radius: 50%;
-}
-
-.footer-soc-item:hover {
-    background-color: rgba(49, 208, 170, 1);
-}
-
