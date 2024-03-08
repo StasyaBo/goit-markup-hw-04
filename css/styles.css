@@ -299,9 +299,7 @@ background-color: #404BBF;
     gap: 24px;
     flex-direction: column;    
 }
-.team-content{
-    padding: 32px 0;
-}
+
 
 .team-img{
     display: block;
