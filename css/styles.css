@@ -248,6 +248,7 @@ background-color: #404BBF;
 
 .features-img{
     fill: rgba(46, 47, 66, 1);
+    padding: 0 auto;
 }
 
 .features-list {
